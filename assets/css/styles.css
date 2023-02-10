@@ -183,7 +183,7 @@ img {
   @media screen and (max-width: 767px) {
     .nav__menu{
       position: fixed;
-      bottom: 0;
+      bottom: -100%;
       left: 0;
       width: 100%;
       background-color: var(--body-color);
@@ -222,11 +222,14 @@ img {
     color: var(--first-color);
   }
   
-  .nav__close:hover{
+  .nav__close:hover {
     color: var(--first-color-alt);
   }
-/* show menu */
 
+/* show menu */
+.show-menu {
+  bottom:0;
+}
 
 /* Active link */
 
