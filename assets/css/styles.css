@@ -1020,6 +1020,12 @@ img {
 
 /*==================== MEDIA QUERIES ====================*/
 /* For small devices */
+@media screen and (max-width: 568px) {
+    .nav__list {
+        column-gap: 0;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
 @media screen and (max-width: 350px) {
     .container {
         margin-left: var(--mb-1);
@@ -1031,6 +1037,7 @@ img {
     }
     .nav__list {
         column-gap: 0;
+        grid-template-columns: repeat(3, 1fr);
     }
 
     .home__content {
@@ -1108,7 +1115,10 @@ img {
         justify-content: center;
 
     }
-
+    .nav__list {
+        column-gap: 0;
+        grid-template-columns: repeat(3, 1fr);
+    }
     .about__img {
         width: 300px;
     }
