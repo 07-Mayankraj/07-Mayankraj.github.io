@@ -1,0 +1,51 @@
+@import "styles.css";
+
+
+.wrapper__container {
+    padding: var(--mb-3);
+    background-color: var(--first-color);
+    border-radius: 1rem;
+    max-width: 1024px;
+}
+
+.wrapper__container.container.grid{
+    gap: 3rem;
+}
+
+.box {
+    max-height: 200px;
+    padding: var(--mb-2);
+    display: flex;
+    background-color: var(--body-color);
+    border-radius: 1.5rem;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.box .box__img {
+    flex: 0 0 130px;
+}
+
+.box .box__img img {
+    border-radius: 50%;
+}
+
+.box .box__content {
+    padding-left: 1.5rem;
+}
+
+.box .box__content .box__title {
+    font-size: var(--h3-font-size);
+}
+
+.box .box__content .box__description {
+    padding: 0.25rem 0 0;
+    font-size: var(--small-font-size);
+    text-align: justify;
+    overflow: hidden;
+}
+
+.box:hover {
+    transform: scale(1.005);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;    transition: all .1s;
+}
+
