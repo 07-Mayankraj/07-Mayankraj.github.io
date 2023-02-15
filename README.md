@@ -1,5 +1,7 @@
 &nbsp
 
+![Screenshot (494)](https://user-images.githubusercontent.com/87657007/218889120-c4cd6d3f-5335-4d51-afa5-93c607a3adb0.png)
+
 ## Problem Statement and Instructions:-
 <!-- 
 - Create a portfolio with the following components using the following attributes:
