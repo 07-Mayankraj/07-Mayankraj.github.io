@@ -291,7 +291,7 @@ describe("Test", function () {
           .should("have.attr", "src")
           .and(
             "include",
-            "https://github-readme-stats.vercel.app/api/top-langs/?username="
+            "https://github-readme-stats.vercel.app/api/top-langs?username="
           );
         cy.then(() => {
           acc_score += 1;
