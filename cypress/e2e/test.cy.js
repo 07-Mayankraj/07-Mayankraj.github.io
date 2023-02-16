@@ -28,7 +28,7 @@ describe("Test", function () {
         cy.wait(1000);
         cy.screenshot("Screenshot -- about", { capture: "viewport" });
 
-        cy.get('[id="skills"]');
+        cy.get('[id="skills"]').scrollIntoView();
         cy.wait(1000);
         cy.screenshot("Screenshot -- skills", { capture: "viewport" });
 
@@ -291,7 +291,7 @@ describe("Test", function () {
           .should("have.attr", "src")
           .and(
             "include",
-            "https://github-readme-stats.vercel.app/api/top-langs?username="
+            "https://github-readme-stats.vercel.app/api/top-langs/?username="
           );
         cy.then(() => {
           acc_score += 1;
