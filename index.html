@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -47,7 +48,7 @@
                         </a>
                     </li>
                     <li class="nav__item nav-link projects">
-                        <a class="nav__link" href="#projects">
+                        <a class="nav__link" href="#portfolio">
                             <i class="uil uil-briefcase-alt nav__icon"></i>Projects
                         </a>
                     </li>
@@ -56,8 +57,8 @@
                             <i class="uil uil-link-alt nav__icon"></i>ContactMe
                         </a>
                     </li>
-                    <li id="resume-button-1" class="nav__item nav-link resume">
-                        <a id="resume-link-1" class="nav__link" target="_blank"
+                    <li class="nav__item nav-link resume">
+                        <a class="nav__link" target="_blank"
                             href="https://drive.google.com/file/d/1OI8GWhlvyHDxnxdIaXEa2jF14FzoD3PT/view">
                             <i class="uil uil-file-blank nav__icon"></i>Resume
                         </a>
@@ -89,7 +90,7 @@
                         </a>
                         <a target="_blank" href="https://github.com/07-Mayankraj" class="home__social-icon">
                             <i class="uil uil-github-alt"></i>
-
+                            
                         </a>
                         <a target="_blank" href="https://twitter.com/Mayank_raj____" class="home__social-icon">
                             <i class="uil uil-twitter-alt"></i>
@@ -98,9 +99,9 @@
                     </div>
                     <!-- profile image -->
 
-                    <div class="home__img ">
+                    <div class="home__img home-img">
 
-                        <img src="./assets/img/tp.png" class="home-img" style="display:none;" alt="">
+
                         <svg class="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg"
                             xmlns:xlink="http://www.w3.org/1999/xlink">
                             <mask id="mask0" mask-type="alpha">
@@ -121,9 +122,9 @@
                     </div>
                     <!-- summary -->
                     <div class="home__data">
-                        <h1 id="user-detail-name" class="home__title">Hi, I'm Mayank Raj</h1>
+                        <h1 id="user-detail-name" class="home__title">Hi, I'm chikkuuu</h1>
                         <h3 class="home__subtitle">Backend developer</h3>
-                        <p class="home__description">Highly skilled backend developer adept at
+                        <p class="home__description" id="user-detail-intro">Highly skilled backend developer adept at
                             contributing to a highly collaborative work environment.
                             Designed and developed web applications across multiple APIs, third-party integrations and
                             databases.
@@ -149,7 +150,6 @@
 
         <!--==================== ABOUT ====================-->
         <section class="about section" id="about">
-            <p id="user-detail-intro" style="display:none;">"MERN","JavaScript","MongoDB","Frontend","Backend","java","SQL","NodeJS","HTML","CSS","Express"</p>
             <h2 class="section__title">About Me</h2>
             <span class="section__subtitle"></span>
 
@@ -157,7 +157,7 @@
                 <img src="assets/img/about.png" alt="" class="about__img">
 
                 <div class="about__data">
-                    <p class="about__description" id="user-detail-intro">
+                    <p class="about__description">
                         Hi! I'm Mayank, I have a degree in Computer Science from MLSU University,Udaipur.
                         <br /><br />
                         Currently I'm Learing Full Stack Web Development at Masai School.
@@ -187,9 +187,8 @@
                     </div>
 
 
-                    <div class="about__buttons" id="resume-button-2">
-                        <a id="resume-link-2" download="" href="assets/pdf/resume.pdf" target="_blank"
-                            class="button button--flex">
+                    <div class="about__buttons">
+                        <a download="" href="assets/pdf/resume.pdf" target="_blank" class="button button--flex">
                             Download CV<i class="uil uil-cloud-download button__icon"></i>&nbsp&nbsp
                         </a>
                     </div>
@@ -331,8 +330,7 @@
 
 
         <!--==================== PORTFOLIO ====================-->
-        <!-- id="portfolio" -->
-        <section class="portfolio section" id="projects">
+        <section class="portfolio section" id="portfolio">
             <h2 class="section__title">Projects</h2>
             <!-- <span class="section__subtitle"><a href="#">Click here</a> to see all.</span> -->
 
@@ -341,13 +339,13 @@
 
                     <!--==================== PORTFOLIO 1 ====================-->
                     <div class="portfolio__content grid swiper-slide">
-                        <figure class="portfolio__figure project-card">
+                        <figure class="portfolio__figure">
                             <img src="https://user-images.githubusercontent.com/87657007/214338799-dd8045ec-3cd5-4aec-82f7-f362396d0440.png"
-                                alt="" class="portfolio__img project-title">
+                                alt="" class="portfolio__img">
                         </figure>
                         <div class="portfolio__data">
-                            <h3 class="portfolio__title ">Firestone (clone)</h3>
-                            <p class="portfolio__description project-tech-stack project-description">
+                            <h3 class="portfolio__title">Firestone (clone)</h3>
+                            <p class="portfolio__description">
                                 Clone of Firestone which sells Tires, and automobile parts. <br>
                                 Developed fronted using Html5 | CSS3 | JavaScript and Back-End using Node | Express |
                                 MongoDB | JavaScript. <br>
@@ -361,7 +359,7 @@
                                 <i class="uil uil-github-alt button__icon"></i>&nbsp
                             </a>
                             <a href="https://firewheeeeeel.netlify.app/" target="_blank"
-                                class="button button--flex project-deployed-link button--small portfolio__button">
+                                class="button button--flex button--small portfolio__button">
                                 DeployedLink
                                 <i class="uil uil-external-link-alt button__icon"></i>&nbsp
                             </a>
@@ -369,13 +367,13 @@
                     </div>
                     <!--==================== PORTFOLIO 2 ====================-->
                     <div class="portfolio__content grid swiper-slide">
-                        <figure class="portfolio__figure project-card">
+                        <figure class="portfolio__figure">
                             <img src="https://user-images.githubusercontent.com/87657007/208608709-2b7d7b95-3336-4638-9ab4-0d2505d10a63.png"
-                                alt="" class="portfolio__img project-title">
+                                alt="" class="portfolio__img">
                         </figure>
                         <div class="portfolio__data">
-                            <h3 class="portfolio__title ">SkinCure (clone) </h3>
-                            <p class="portfolio__description project-tech-stack project-description">
+                            <h3 class="portfolio__title">SkinCure (clone) </h3>
+                            <p class="portfolio__description">
                                 Skincure is a clone of SkinStore,an online sales site for beauty products. <br>
                                 Tech stack : Html5 | CSS3 | JavaScript <br>
                                 created the product and admin page and backend,mock server, API, and documentation,.
@@ -383,12 +381,12 @@
                                 responsible for linking the pages. <br>
                             </p>
                             <a href="https://github.com/07-Mayankraj/SkinCure.com" target="_blank"
-                                class="button button--flex project-github-link button--small portfolio__button">
+                                class="button button--flex button--small portfolio__button">
                                 GitHubLink
                                 <i class="uil uil-github-alt button__icon"></i>&nbsp
                             </a>
                             <a href="https://skincure.netlify.app/" target="_blank"
-                                class="button button--flex project-deployed-link button--small portfolio__button">
+                                class="button button--flex button--small portfolio__button">
                                 DeployedLink
                                 <i class="uil uil-external-link-alt button__icon"></i>&nbsp
                             </a>
@@ -396,13 +394,13 @@
                     </div>
                     <!--==================== PORTFOLIO 3 ====================-->
                     <div class="portfolio__content grid swiper-slide">
-                        <figure class="portfolio__figure project-card">
+                        <figure class="portfolio__figure">
                             <img src="https://user-images.githubusercontent.com/87657007/203859011-d9011312-61b1-4925-8ffb-c1a185b626d9.png"
-                                alt="" class="portfolio__img project-title">
+                                alt="" class="portfolio__img">
                         </figure>
                         <div class="portfolio__data">
-                            <h3 class="portfolio__title ">ChargeBee (clone) </h3>
-                            <p class="portfolio__description project-tech-stack project-description">
+                            <h3 class="portfolio__title">ChargeBee (clone) </h3>
+                            <p class="portfolio__description">
                                 Billbee is a clone of chargeBee and it’s an online billing software
                                 service. <br>
                                 Teach stack I’ve used HTML CSS and JavaScript to design the clone
@@ -410,12 +408,12 @@
                                 project
                             </p>
                             <a href="https://github.com/07-Mayankraj/ChargeBee-clone" target="_blank"
-                                class="button button--flex project-github-link button--small portfolio__button">
+                                class="button button--flex button--small portfolio__button">
                                 GitHubLink
                                 <i class="uil uil-github-alt button__icon"></i>&nbsp
                             </a>
                             <a href="https://billbeee.netlify.app/" target="_blank"
-                                class="button button--flex project-deployed-link button--small portfolio__button">
+                                class="button button--flex button--small portfolio__button">
                                 DeployedLink
                                 <i class="uil uil-external-link-alt button__icon"></i>&nbsp
                             </a>
@@ -423,13 +421,13 @@
                     </div>
                     <!--==================== PORTFOLIO 4 ====================-->
                     <div class="portfolio__content grid swiper-slide">
-                        <figure class="portfolio__figure project-card">
+                        <figure class="portfolio__figure">
                             <img src="https://user-images.githubusercontent.com/87657007/218889120-c4cd6d3f-5335-4d51-afa5-93c607a3adb0.png"
-                                alt="" class="portfolio__img project-title">
+                                alt="" class="portfolio__img">
                         </figure>
                         <div class="portfolio__data">
-                            <h3 class="portfolio__title ">07-Mayankraj.io </h3>
-                            <p class="portfolio__description project-tech-stack project-description">
+                            <h3 class="portfolio__title">07-Mayankraj.io </h3>
+                            <p class="portfolio__description">
                                 This is my personal portfolio. <br>
                                 I've used html css JavaScript to build it <br>
                                 This portfolio is based on Responsive Portfolio Website Alexa <br>
@@ -437,13 +435,13 @@
                                     style="text-decoration: none; color: rgb(176, 176, 176);" target="_blank">Thanks to
                                     Bedimcode</a>
                             </p>
-                            <a href="https://github.com/07-Mayankraj/07-Mayankraj.github.io" target="_blank"
-                                class="button button--flex project-github-link button--small portfolio__button">
+                            <a href="https://github.com/07-Mayankraj/ChargeBee-clone" target="_blank"
+                                class="button button--flex button--small portfolio__button">
                                 GitHubLink
                                 <i class="uil uil-github-alt button__icon"></i>&nbsp
                             </a>
-                            <a href="https://07-mayankraj.github.io/" target="_blank"
-                                class="button button--flex project-deployed-link button--small portfolio__button">
+                            <a href="https://billbeee.netlify.app/" target="_blank"
+                                class="button button--flex button--small portfolio__button">
                                 DeployedLink
                                 <i class="uil uil-external-link-alt button__icon"></i>&nbsp
                             </a>
@@ -489,55 +487,50 @@
                         </div>
 
                         <div class="skills__list grid">
-                            <div class="skills__data skills-card ">
-                                <div class="skills__titles ">
-                                    <h3 class="skills__name skills-card-name">HTML</h3>
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">HTML</h3>
                                     <span class="skills__number">80%</span>
                                 </div>
                                 <div class="skills__bar">
-                                    <img class="skills-card-img fyouseek" src="" alt="">
                                     <span class="skills__percentage skills__80"></span>
                                 </div>
                             </div>
 
-                            <div class="skills__data skills-card">
-                                <div class="skills__titles ">
-                                    <h3 class="skills__name skills-card-name">CSS</h3>
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">CSS</h3>
                                     <span class="skills__number">70%</span>
                                 </div>
                                 <div class="skills__bar">
-                                    <img class="skills-card-img fyouseek" src="" alt="">
                                     <span class="skills__percentage skills__70"></span>
                                 </div>
                             </div>
 
-                            <div class="skills__data skills-card">
-                                <div class="skills__titles ">
-                                    <h3 class="skills__name skills-card-name">JavaScript</h3>
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">JavaScript</h3>
                                     <span class="skills__number">80%</span>
                                 </div>
                                 <div class="skills__bar">
-                                    <img class="skills-card-img fyouseek" src="" alt="">
                                     <span class="skills__percentage skills__80"></span>
                                 </div>
                             </div>
-                            <div class="skills__data skills-card">
-                                <div class="skills__titles ">
-                                    <h3 class="skills__name skills-card-name">Boostrap</h3>
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Boostrap</h3>
                                     <span class="skills__number">70%</span>
                                 </div>
                                 <div class="skills__bar">
-                                    <img class="skills-card-img fyouseek" src="" alt="">
                                     <span class="skills__percentage skills__70"></span>
                                 </div>
                             </div>
-                            <div class="skills__data skills-card">
-                                <div class="skills__titles ">
-                                    <h3 class="skills__name skills-card-name">swiperjs</h3>
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">swiperjs</h3>
                                     <span class="skills__number">70%</span>
                                 </div>
                                 <div class="skills__bar">
-                                    <img class="skills-card-img fyouseek" src="" alt="">
                                     <span class="skills__percentage skills__70"></span>
                                 </div>
                             </div>
@@ -560,67 +553,52 @@
                     </div>
 
                     <div class="skills__list grid">
-                        <div class="skills__data skills-card">
-                            <div class="skills__titles ">
-                                <h3 class="skills__name skills-card-name">Node JS</h3>
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">Node JS</h3>
                                 <span class="skills__number">70%</span>
                             </div>
                             <div class="skills__bar">
-                                <img class="skills-card-img fyouseek" src="" alt="">
                                 <span class="skills__percentage skills__70"></span>
                             </div>
                         </div>
 
-                        <div class="skills__data skills-card">
-                            <div class="skills__titles ">
-                                <h3 class="skills__name skills-card-name">Express JS</h3>
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">Express JS</h3>
                                 <span class="skills__number">70%</span>
                             </div>
                             <div class="skills__bar">
-                                <img class="skills-card-img fyouseek" src="" alt="">
-                                <span class="skills__percentage skills__70"></span>
-                            </div>
-                        </div>
-                        <div class="skills__data skills-card">
-                            <div class="skills__titles ">
-                                <h3 class="skills__name skills-card-name">Redis</h3>
-                                <span class="skills__number">60%</span>
-                            </div>
-                            <div class="skills__bar">
-                                <img class="skills-card-img fyouseek" src="" alt="">
-                                <span class="skills__percentage skills__60"></span>
-                            </div>
-                        </div>
-
-                        <div class="skills__data skills-card">
-                            <div class="skills__titles ">
-                                <h3 class="skills__name skills-card-name">Mongoose</h3>
-                                <span class="skills__number">70%</span>
-                            </div>
-                            <div class="skills__bar">
-                                <img class="skills-card-img fyouseek" src="" alt="">
                                 <span class="skills__percentage skills__70"></span>
                             </div>
                         </div>
 
-                        <div class="skills__data skills-card">
-                            <div class="skills__titles ">
-                                <h3 class="skills__name skills-card-name">MongoDB</h3>
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">Mongoose</h3>
                                 <span class="skills__number">70%</span>
                             </div>
                             <div class="skills__bar">
-                                <img class="skills-card-img fyouseek" src="" alt="">
                                 <span class="skills__percentage skills__70"></span>
                             </div>
                         </div>
 
-                        <div class="skills__data skills-card">
-                            <div class="skills__titles ">
-                                <h3 class="skills__name skills-card-name">Rest APIs</h3>
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">MongoDB</h3>
                                 <span class="skills__number">70%</span>
                             </div>
                             <div class="skills__bar">
-                                <img class="skills-card-img fyouseek" src="" alt="">
+                                <span class="skills__percentage skills__70"></span>
+                            </div>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">Rest APIs</h3>
+                                <span class="skills__number">70%</span>
+                            </div>
+                            <div class="skills__bar">
                                 <span class="skills__percentage skills__70"></span>
                             </div>
                         </div>
@@ -640,69 +618,63 @@
 
                     <div class="skills__list grid">
 
-                        <div class="skills__data skills-card">
-                            <div class="skills__titles ">
-                                <h3 class="skills__name skills-card-name">VS-Code | Codepan | Replit</h3>
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">VS-Code | Codepan | Replit</h3>
                                 <span class="skills__number">90%</span>
                             </div>
                             <div class="skills__bar">
-                                <img class="skills-card-img fyouseek" src="" alt="">
                                 <span class="skills__percentage skills__90"></span>
                             </div>
                         </div>
 
-                        <div class="skills__data skills-card">
-                            <div class="skills__titles ">
-                                <h3 class="skills__name skills-card-name">Netlify | Vercel | cylic.sh</h3>
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">Netlify | Vercel | cylic.sh</h3>
                                 <span class="skills__number">70%</span>
                             </div>
                             <div class="skills__bar">
-                                <img class="skills-card-img fyouseek" src="" alt="">
                                 <span class="skills__percentage skills__70"></span>
                             </div>
                         </div>
 
-                        <div class="skills__data skills-card">
-                            <div class="skills__titles ">
-                                <h3 class="skills__name skills-card-name">Git & Github</h3>
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">Git & Github</h3>
                                 <span class="skills__number">70%</span>
                             </div>
                             <div class="skills__bar">
-                                <img class="skills-card-img fyouseek" src="" alt="">
                                 <span class="skills__percentage skills__70"></span>
                             </div>
                         </div>
 
-                        <div class="skills__data skills-card">
-                            <div class="skills__titles ">
-                                <h3 class="skills__name skills-card-name">Postman</h3>
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">Postman</h3>
                                 <span class="skills__number">70%</span>
                             </div>
                             <div class="skills__bar">
-                                <img class="skills-card-img fyouseek" src="" alt="">
                                 <span class="skills__percentage skills__70"></span>
                             </div>
                         </div>
 
-                        <div class="skills__data skills-card">
-                            <div class="skills__titles ">
-                                <h3 class="skills__name skills-card-name">Canva</h3>
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">Canva</h3>
                                 <span class="skills__number">70%</span>
                             </div>
                             <div class="skills__bar">
-                                <img class="skills-card-img fyouseek" src="" alt="">
                                 <span class="skills__percentage skills__70"></span>
                             </div>
                         </div>
 
 
-                        <div class="skills__data skills-card">
-                            <div class="skills__titles ">
-                                <h3 class="skills__name skills-card-name">NPM</h3>
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">NPM</h3>
                                 <span class="skills__number">70%</span>
                             </div>
                             <div class="skills__bar">
-                                <img class="skills-card-img fyouseek" src="" alt="">
                                 <span class="skills__percentage skills__70"></span>
                             </div>
                         </div>
@@ -725,55 +697,50 @@
                     </div>
 
                     <div class="skills__list grid">
-                        <div class="skills__data skills-card">
-                            <div class="skills__titles ">
-                                <h3 class="skills__name skills-card-name">Project Management</h3>
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">Project Management</h3>
                                 <span class="skills__number">70%</span>
                             </div>
                             <div class="skills__bar">
-                                <img class="skills-card-img fyouseek" src="" alt="">
                                 <span class="skills__percentage skills__70"></span>
                             </div>
                         </div>
 
-                        <div class="skills__data skills-card">
-                            <div class="skills__titles ">
-                                <h3 class="skills__name skills-card-name">Team Working</h3>
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">Team Working</h3>
                                 <span class="skills__number">70%</span>
                             </div>
                             <div class="skills__bar">
-                                <img class="skills-card-img fyouseek" src="" alt="">
                                 <span class="skills__percentage skills__70"></span>
                             </div>
                         </div>
 
-                        <div class="skills__data skills-card">
-                            <div class="skills__titles ">
-                                <h3 class="skills__name skills-card-name">Remotely Working</h3>
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">Remotely Working</h3>
                                 <span class="skills__number">90%</span>
                             </div>
                             <div class="skills__bar">
-                                <img class="skills-card-img fyouseek" src="" alt="">
                                 <span class="skills__percentage skills__90"></span>
                             </div>
                         </div>
-                        <div class="skills__data skills-card">
-                            <div class="skills__titles ">
-                                <h3 class="skills__name skills-card-name">Problem-Solving</h3>
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">Problem-Solving</h3>
                                 <span class="skills__number">70%</span>
                             </div>
                             <div class="skills__bar">
-                                <img class="skills-card-img fyouseek" src="" alt="">
                                 <span class="skills__percentage skills__70"></span>
                             </div>
                         </div>
-                        <div class="skills__data skills-card">
-                            <div class="skills__titles ">
-                                <h3 class="skills__name skills-card-name">Adaptability</h3>
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">Adaptability</h3>
                                 <span class="skills__number">70%</span>
                             </div>
                             <div class="skills__bar">
-                                <img class="skills-card-img fyouseek" src="" alt="">
                                 <span class="skills__percentage skills__70"></span>
                             </div>
                         </div>
@@ -786,7 +753,7 @@
 
         <!--==================== GITHUB STATES ====================-->
 
-        <section class="about section container react-activity-calendar" id="github">
+        <section class="about section container" id="github">
             <h2 class="section__title">Github contributions in the last year</h2>
             <div class="Github-calendar ">
                 <!-- Loading stuff -->
@@ -796,21 +763,21 @@
 
         <!--==================== Github actitvities ====================-->
 
-        <section class="portfolio section githubstates " id="githubstates">
+        <section class="portfolio section githubstates" id="githubstates">
             <h2 class="section__title">GitHub Activities</h2>
 
             <div class="portfolio__container container swiper-container">
                 <div class="swiper-wrapper github-images">
 
-                    <img id="github-streak-stats" class="portfolio__content grid swiper-slide"
+                    <img class="portfolio__content grid swiper-slide"
                         src="https://github-readme-streak-stats.herokuapp.com?user=07-Mayankraj&theme=github-dark&hide_border=true&date_format=j%20M%5B%20Y%5D" />
 
 
-                    <img id="github-top-langs" class="portfolio__content grid swiper-slide"
+                    <img class="portfolio__content grid swiper-slide"
                         src="https://github-readme-stats.vercel.app/api/top-langs?username=07-Mayankraj&show_icons=true&locale=en&layout=compact&theme=github_dark&hide_border=true"
                         alt="ovi" />
 
-                    <img id="github-stats-card" class="portfolio__content grid swiper-slide"
+                    <img class="portfolio__content grid swiper-slide"
                         src="https://github-readme-stats.vercel.app/api?username=07-Mayankraj&show_icons=true&locale=en&theme=github_dark&hide_border=true"
                         alt="ovi" />
 
@@ -840,20 +807,19 @@
 
             <div class="contact__container container grid">
                 <div>
-
                     <div class="contact__information">
                         <a href="https://github.com/07-Mayankraj" target="_blank"><i
                                 class="uil uil-github contact__icon"></i></a>
                         <div>
                             <h3 class="contact__title">GitHub</h3>
-                            <a id="contact-github" href="https://github.com/07-Mayankraj" target="_blank"><span
+                            <a href="https://github.com/07-Mayankraj" target="_blank"><span
                                     class="contact__subtitle">@07-Mayankraj</span></a>
                         </div>
                     </div>
-
+                    
                     <div class="contact__information">
-                        <a id="contact-linkedin" href="https://www.linkedin.com/in/mayank-raj-b55614181/"
-                            target="_blank"><i class="uil uil-linkedin contact__icon"></i></a>
+                        <a href="https://www.linkedin.com/in/mayank-raj-b55614181/" target="_blank"><i
+                                class="uil uil-linkedin contact__icon"></i></a>
                         <div>
                             <h3 class="contact__title">LinkedIn</h3>
                             <a href="https://www.linkedin.com/in/mayank-raj-b55614181/" target="_blank"><span
@@ -861,10 +827,10 @@
                         </div>
                     </div>
 
+                    
 
                     <div class="contact__information">
-                        <a id="contact-email" href="mailto:2003.mayank.raj@gmail.com"><i
-                                class="uil uil-envelope-alt contact__icon"></i></a>
+                        <a href="mailto:2003.mayank.raj@gmail.com"><i class="uil uil-envelope-alt contact__icon"></i></a>
                         <div>
                             <h3 class="contact__title">Email</h3>
                             <a href="mailto:2003.mayank.raj@gmail.com"><span
@@ -872,16 +838,18 @@
 
                         </div>
                     </div>
+                    
                     <div class="contact__information">
                         <a href="https://www.instagram.com/mayank_raj____/" target="_blank">
                             <i class="uil uil-instagram contact__icon"></i></a>
 
                         <div>
-                            <h3 id="contact-phone" class="contact__title">Instagram</h3>
+                            <h3 class="contact__title">Instagram</h3>
                             <a href="https://www.instagram.com/mayank_raj____/" target="_blank"><span
                                     class="contact__subtitle">@mayank_raj____</span></a>
                         </div>
                     </div>
+
                     <div class="contact__information">
                         <i class="uil uil-map-marker contact__icon"></i>
                         <div>
@@ -913,7 +881,7 @@
                     </div>
 
                     <div>
-                        <a href="mailto:fscoiety430@gmail.com" class="button button--flex">
+                        <a href="mailto:2003.mayank.raj@gmail.com" class="button button--flex">
                             Send Message
                             <i class="uil uil-comment-alt button__icon"></i>&nbsp&nbsp
                         </a>
@@ -925,9 +893,7 @@
     </main>
 
 
-    <!--  -->
 
-    <!--  -->
 
     <!--==================== FOOTER ====================-->
     <footer class="footer">
