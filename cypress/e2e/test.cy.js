@@ -28,7 +28,7 @@ describe("Test", function () {
         cy.wait(1000);
         cy.screenshot("Screenshot -- about", { capture: "viewport" });
 
-        cy.get('[id="skills"]').scrollIntoView();
+        cy.get('[id="skills"]');
         cy.wait(1000);
         cy.screenshot("Screenshot -- skills", { capture: "viewport" });
 
