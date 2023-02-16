@@ -17,6 +17,10 @@
     <!--==================== CSS ====================-->
     <link rel="stylesheet" href="assets/css/styles.css">
 
+    <!----------------- github calender css ----------->
+    <link rel="stylesheet" href="./assets/css/github_states.css" />
+
+
     <title>Mayank Raj</title>
 </head>
 
@@ -43,7 +47,7 @@
                         </a>
                     </li>
                     <li class="nav__item nav-link projects">
-                        <a class="nav__link" href="#projects">
+                        <a class="nav__link" href="#portfolio">
                             <i class="uil uil-briefcase-alt nav__icon"></i>Projects
                         </a>
                     </li>
@@ -215,7 +219,7 @@
                     <div class="qualification__content qualification__active" data-content id="education">
                         <!--==================== QUALIFICATION 0 ====================-->
                         <div class="qualification__data">
-                            
+
                             <div>
                                 <h3 class="qualification__title">Full Stack Web Development</h3>
                                 <span class="qualification__subtitle">Masai School,</span>
@@ -247,13 +251,13 @@
                                     2019 - 2022
                                 </div>
                             </div>
-                            
+
                         </div>
 
                         <!--==================== QUALIFICATION 2 ====================-->
                         <div class="qualification__data">
-                           
-                         
+
+
                             <div>
                                 <h3 class="qualification__title">Senior Secondary</h3>
                                 <span class="qualification__subtitle">Govardhan senior secondary school,
@@ -278,7 +282,7 @@
                                 <span class="qualification__rounder"></span>
                                 <span class="qualification__line"></span>
                             </div>
-                           
+
                             <div>
                                 <h3 class="qualification__title">Secondary</h3>
                                 <span class="qualification__subtitle">Senior secondary school, Nathdwara</span>
@@ -458,10 +462,6 @@
         <br /><br />
 
 
-
-
-        
-          
         <!-- ==================== SKILLS ====================== -->
         <section class="skills section" id="skills">
             <h2 class="section__title">Skills</h2>
@@ -748,6 +748,55 @@
         </section>
 
 
+        <!--==================== GITHUB STATES ====================-->
+
+        <section class="about section container" id="github">
+            <h2 class="section__title">Github contributions in the last year</h2>
+            <div class="Github-calendar ">
+                <!-- Loading stuff -->
+                07-Mayankraj.
+            </div>
+        </section>
+
+        <!--==================== Github actitvities ====================-->
+
+        <section class="portfolio section" id="githubstates">
+            <h2 class="section__title">GitHub Activities</h2>
+
+            <div class="portfolio__container container swiper-container">
+                <div class="swiper-wrapper github-images">
+
+                    <img class="portfolio__content grid swiper-slide"
+                        src="https://github-readme-streak-stats.herokuapp.com?user=07-Mayankraj&theme=github-dark&hide_border=true&date_format=j%20M%5B%20Y%5D" />
+
+
+                    <img class="portfolio__content grid swiper-slide"
+                        src="https://github-readme-stats.vercel.app/api/top-langs?username=07-Mayankraj&show_icons=true&locale=en&layout=compact&theme=github_dark&hide_border=true"
+                        alt="ovi" />
+
+                    <img class="portfolio__content grid swiper-slide"
+                        src="https://github-readme-stats.vercel.app/api?username=07-Mayankraj&show_icons=true&locale=en&theme=github_dark&hide_border=true"
+                        alt="ovi" />
+
+                    <img class="portfolio__content grid swiper-slide"
+                        src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=07-Mayankraj&theme=github_dark" />
+
+                </div>
+
+                <!-- Add Arrows -->
+                <div class="swiper-button-next">
+                    <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+                </div>
+                <div class="swiper-button-prev">
+                    <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+                </div>
+
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+        <br /><br />
+
         <!--==================== CONTACT ME ====================-->
         <section class="contact section" id="contact">
             <h2 class="section__title">Contact</h2>
@@ -838,6 +887,9 @@
 
     </main>
 
+
+
+
     <!--==================== FOOTER ====================-->
     <footer class="footer">
         <div class="footer__bg">
@@ -876,19 +928,23 @@
             </p>
         </div>
     </footer>
-    <h1 style="font-size: 5rem; display: block; text-align: center ;margin: 100px 0;">Pending : github acitvitieeeeeees
-    </h1>
 
     <!--==================== SCROLL TOP ====================-->
     <a href="#" class="scrollup" id="scroll-up">
         <i class="uil uil-arrow-up scrollup__icon"></i>
     </a>
-
-    <!--==================== SWIPER JS ====================-->
-    <script src="assets/js/swiper-bundle.min.js"></script>
-
-    <!--==================== MAIN JS ====================-->
-    <script src="assets/js/main.js"></script>
 </body>
 
 </html>
+
+
+
+<!--==================== GITHUB STATES LIBRARY ====================-->
+<script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
+<script>GitHubCalendar(".Github-calendar", "07-Mayankraj", { responsive: true });</script>
+
+<!--==================== SWIPER JS ====================-->
+<script src="assets/js/swiper-bundle.min.js"></script>
+
+<!--==================== MAIN JS ====================-->
+<script src="assets/js/main.js"></script>
