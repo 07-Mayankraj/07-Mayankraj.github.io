@@ -1460,3 +1460,7 @@ img {
     display: flex;
     align-items: center;
 }
+
+.fyouseek{
+    display: none;
+}
