@@ -312,7 +312,8 @@ img {
 
 .home__blob {
     width: 200px;
-    fill: var(--first-color);
+    /* fill: var(--first-color); */
+    fill: var(--first-color-second);
 }
 
 .home__blob-img {
