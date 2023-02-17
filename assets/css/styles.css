@@ -1462,6 +1462,7 @@ img {
     align-items: center;
 }
 
-.fyouseek{
-    display: none;
+/* for testcase */
+#projects{
+    height: 670px;
 }
